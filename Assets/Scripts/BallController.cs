@@ -38,9 +38,12 @@ public class BallController : MonoBehaviour
 
     }
 
-    void OnCollisionExit(Collision other)
+    public void OnTriggerEnter(Collider other)
     {
-        ball.AddForce(new Vector3(0,-1,0) * 100f, ForceMode.Force);
+        if (other.gameObject.tag == "Diamond")
+        {
+            Destroy(other.gameObject);
+        }
     }
 
  
