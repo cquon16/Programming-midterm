@@ -632,6 +632,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platformprefab: {fileID: 4341882105934381071, guid: a5c2d047e2d5cd349a20975cf87eb2b4,
     type: 3}
+  diamondprefab: {fileID: 7375940714283308860, guid: fa30dce964c0e1c40ac35bffbcdea478,
+    type: 3}
+  Arry: []
 --- !u!1001 &5426347722243947445
 PrefabInstance:
   m_ObjectHideFlags: 0
